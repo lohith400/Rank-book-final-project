@@ -1,0 +1,67 @@
+.html {
+    text-align: center;
+    color: white;
+    margin-bottom: 150px;
+} 
+
+.css {
+    
+    text-align: center;
+    color: white;
+    margin-bottom: 150px;
+}
+
+body {
+    background-image: url(./rosie-sun-1L71sPT5XKc-unsplash.jpg); /* Replace 'background.jpg' with the path to your image */
+    background-size: cover; /* Cover the entire viewport */
+    background-repeat: no-repeat; /* Prevent the background from repeating */
+    background-attachment: fixed;
+    
+}
+
+button {
+    border-radius: 10px;
+    height: 40px;
+    border: solid 10px white;
+    font-size: 15px;
+    color: black;
+    margin-left: 10px;
+}
+
+.css h2 {
+    color:white;
+}
+
+p {
+    margin-left:100px;
+    margin-right:100px;
+    font:bolder;
+}
+
+.Javascript {
+    height: 400px;
+    text-align: center;
+    color: whitesmoke;
+
+
+}
+
+#calci {
+    margin-right: 10px;
+    
+}
+
+#here {
+    font-size: x-large;
+    color:antiquewhite;
+}
+
+#Final {
+    text-align: center;
+    color: antiquewhite;
+    margin-bottom: 100px;
+}
+
+h1 {
+    color:antiquewhite;
+}

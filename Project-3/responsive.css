@@ -1,0 +1,76 @@
+/* For Tablets */
+
+/* Add a breakpoint at max-width: 1000px */
+@media (max-width: 1000px) {
+  /* Add CSS for lesson */
+  .lesson {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+
+  /* Add CSS for <h1> tags inside top-wrapper */
+  .top-wrapper h1 {
+    font-size: 32px;
+  } 
+  
+  /* Add CSS for <h2> tags inside heading */
+  .heading h2 {
+    font-size: 20px;
+  }
+  
+}
+
+/* For Smartphones */
+
+/* Add a breakpoint at max-width: 670px */
+@media (max-width: 670px) {
+  /* Change lesson's width to 100% */
+  .lesson {
+    width: 100%;
+  }
+  
+  /* Change <footer>'s text-align property */
+  footer {
+    text-align: center;
+  }
+
+  .header-left img {
+    height: 80px;
+    width: 80px;
+  }
+
+  footer img {
+    height: 80px;
+    width: 80px;
+  }
+
+  /* Change btn's width to 100% */
+  .btn {
+    width: 100%;
+  }
+  
+  /* Change facebook's margin-bottom to 10px */
+  .facebook {
+    margin-bottom: 15px;
+  }
+  
+  /* Add CSS for top-wrapper */
+  .top-wrapper {
+    text-align: left;
+  }
+
+ 
+
+  /* Add CSS for <h1> tags inside top-wrapper */
+  .top-wrapper h1 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  
+  /* Add CSS for <p> tags inside top-wrapper */
+  .top-wrapper p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  
+}

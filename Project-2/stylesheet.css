@@ -1,0 +1,146 @@
+body {
+  font-family: "Avenir Next";
+}
+
+
+/* Use the list-style property to remove dots from <li> tags */
+li {
+  list-style: none;
+
+}
+
+
+/* Change header's background-color to #26d0c9, and height to 90px */
+.header {
+  background-color:#26d0c9;
+  height:90px;
+}
+
+/* Change header-logo's font-size to 36px, and float property to left */
+.header-logo {
+  font-size: 36px;
+  float :left;
+
+  /* Change the top & bottom padding to 20px, and left & right padding to 40px */
+  padding:20px 40px;
+}
+
+
+/* Add CSS for <li> tags within header-list */
+.header-list li {
+  float: left;
+  padding: 33px 20px;
+}
+
+.header-list li a {
+  text-decoration: none; /* Remove underline */
+  color: black; /* Set text color */
+  cursor: pointer; /* Change cursor on hover */
+}
+
+.main {
+  
+  /* Change the top & bottom padding to 100px, and left & right padding to 80px */
+  padding: 100px 80px;
+  
+}
+
+/* Change the font-size of <h1> tags within copy-container */
+.copy-container h1 {
+  font-size:140px;
+}
+
+/* Change the font-size of <h2> tags within copy-container */
+.copy-container h2 {
+  font-size:60px;
+}
+
+
+.contents {
+  height: 500px;
+
+  margin-top: 100px;
+}
+
+.section-title {
+  border-bottom: 2px solid #dee7ec;
+
+  font-size: 28px;
+
+  padding-bottom: 15px;
+
+  margin-bottom: 50px;
+
+
+}
+
+.contents-item {
+  float: left;
+  margin-right: 40px;
+}
+
+/* Change the font-size and margin-top of <p> tags within contents-item */
+.contents-item p {
+  font-size: 24px;
+  margin-top: 30px;
+  text-align-last: center;
+}
+
+
+
+/* Change the color of <span> tags within copy-container */
+.copy-container span {
+  color:#ff4a4a;
+}
+
+/* Change contact-form's padding-top property to 100px */
+.contact-form {
+  padding-top: 100px;
+}
+
+/* Add CSS for <input> and <textarea> tags */
+input, textarea{
+  width: 350px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding: 20px;
+  font-size:18px;
+  border: 1px solid #dee7ec;
+}
+
+/* Add CSS for contact-submit */
+.contact-submit {
+  background-color: #dee7ec;
+  color: #889eab;
+  width: 390px;
+}
+
+/* Change footer's background-color to #ceccf3, and height to 270px */
+.footer {
+  /* Change the background-color to #2f5167 */
+  background-color: #2f5167;
+  
+  /* Change the color to #fff */
+  color:#fff;
+  
+  /* Change the height to 120px */
+  height: 120px;
+  /* Change the padding for all sides to 40px */
+  padding :40px;
+}
+
+/* Change footer-logo's font-size and float property */
+.footer-logo {
+  font-size: 32px;
+  float: left;
+}
+
+/* Change footer-list's float property */
+.footer-list {
+  float: right;
+}
+
+/* Add CSS for <li> tags within footer-list */
+.footer-list li {
+  padding-bottom:20px;
+}
